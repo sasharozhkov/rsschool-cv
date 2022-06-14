@@ -5,12 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.js">
 </head>
 
 <body>
-    <h1>sasharozhkov</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Project</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+
+            <section class="section section-profile" id="profile">
+                <img src="./assets/img/avatar.png" class="section-profile-avatar" alt="logo">
+                <h1 class="section-title main-title">Alexander Rozhkov</h1>
+                <h3 class="section-subtitle">Junior Front-end Developer</h3>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+
+                <ul class="section-list">
+                    <li class="text text-email">
+                        <a href="mailto:alexander_rozhkov@icloud.com" title="Email" target="">alexander_rozhkov@icloud.com</a>
+                    </li>
+                    <li class="text text-github">
+                        <a href="https://github.com/sasharozhkov" title="GitHub" target="">sasharozhkov</a>
+                    </li>
+                    <li class="text text-telegram">
+                        <a href="https://t.me/AlexanderRozhkov" title=" Telegram" target="">@AlexanderRozhkov</a>
+                    </li>
+                    <li class="text text-instagram">
+                        <a href="https://www.instagram.com/alex__rozhkov/" title="Instagram" target="">alex__rozhkov</a>
+                    </li>
+                    <li class="text text-vk">
+                        <a href="https://vk.com/alex__rozhkov" title="VK" target="">alex__rozhkov</a>
+                    </li>
+                    <li class="text text-in">
+                        <a href="https://www.linkedin.com/in/alexander-rozhkov-805471233/" title="linkedin" target="">Alexander Rozhkov</a>
+                    </li>
+                </ul>
+
+
+
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me. I have completed several training projects and now I would like to take part in the creation of a real JavaScript project. My goal
+                    is to learn a pure JavaScript at a good level and learn the React library.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+
+                <ul class="section-list">
+                    <li class="text-skills">
+                        <span class="text-decoration">Web-development:</span> HTML5, CSS3, JavaScript
+                    </li>
+                    <li class="text-skills">
+                        <span class="text-decoration">Frameworks and libraries:</span> React
+                    </li>
+                    <li class="text-skills">
+                        <span class="text-decoration">Version control:</span> GIT, Github
+                    </li>
+                    <li class="text-skills">
+                        <span class="text-decoration">Graphics:</span> Figma, Photoshop, Illustrator
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+<code class="pre">function factorial(n) {
+    if(n &lt; 0) return null;
+    if (n &lt;= 1) return 1;
+    return n * factorial(n-1);
+}</code></pre>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p><span class="text-decoration">Rs.School:</span> JavaScript for beginner</p>
+                <p><span class="text-decoration">Englisharound:</span> English courses</p>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p><span class="text-decoration">Website:</span> arenda-merc99.ru</p>
+                <p><span class="text-decoration">Website:</span> stroiuspeh.ru</p>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><span class="text-decoration">Gomel:</span> Commercial Economic College</p>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p><span class="text-decoration">B1:</span> Pre-Intermediate</p>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://github.com/sasharozhkov" class="footer-github">
+                <p>sasharozhkov</p>
+            </a>
+            <a href="https://rs.school/js" class="logo"></a>
+
+            <p>2022</p>
+        </div>
+    </footer>
 </body>
 
 </html>
