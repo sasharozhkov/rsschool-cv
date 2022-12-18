@@ -6,23 +6,191 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSSchool CV</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="header">
+
+        <header class="header">
             <div class="header__container _container">
+                <div class="header__body">
+                    <!-- menu -->
+                    <nav class="menu__body">
+                        <ul class="menu__list">
 
+                            <li>
+                                <a title="Портфолио" class="menu__link" href="#">Contacts</a>
+                            </li>
+
+                            <li>
+                                <a title="Стоимость" class="menu__link" data-goto=".three" href="#">Summary</a>
+                            </li>
+
+                            <li>
+                                <a title="Контакты" class="menu__link" data-goto=".footer" href="#">Skills</a>
+                            </li>
+
+                            <li>
+                                <a title="Учебник" class="menu__link" href="#">Code</a>
+                            </li>
+
+                            <li>
+                                <a title="Учебник" class="menu__link" href="#">Projects</a>
+                            </li>
+
+                            <li>
+                                <a title="Учебник" class="menu__link" href="#">Education</a>
+                            </li>
+
+                            <li>
+                                <a title="Учебник" class="menu__link" href="#">English</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-        <div class="main">
+        </header>
 
-        </div>
-        <div class="footer">
+        <main class="page">
+            <div class="page__container _container">
+                <div class="page__wrapper">
 
-        </div>
+                    <div class="page__wrapper_bg"></div>
+                    <div class="page__wrapper_bg-white"></div>
+                    <section class="avatar">
+                        <div class="avatar__body">
+                            <div class="avatar__image">
+                                <img src="./pic.JPEG" class="avatar__image-style" alt="avatar">
+                            </div>
+                            <div class="avatar__title">
+                                <h1 class="title__style">ALEX ROZHKOV</h1>
+                            </div>
+                            <div class="avatar__subtitle">
+                                <h2 class="subtitle__style">JUNIOR FRONT-END DEVELOPER</h2>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="education">
+                        <div class="education__body">
+                            <div class="education__title">EDUCATION</div>
+                            <div class="education__items">
+                                <div class="education__year">2014</div>
+                                <div class="education__place">A UNIVERSITY TITLE A DETAIL OR NOTE</div>
+                                <div class="education__speciality">Some Educational Institution</div>
+                            </div>
+                            <div class="education__items">
+                                <div class="education__year">2016</div>
+                                <div class="education__place">dolor sit amet</div>
+                                <div class="education__speciality">Utnim Ad Minim Veniam</div>
+                            </div>
+                            <div class="education__items">
+                                <div class="education__year">2018</div>
+                                <div class="education__place">EXERCITATION ULLAMCO</div>
+                                <div class="education__speciality">Laboris Nisi Aliquip</div>
+                            </div>
+                            <div class="education__items">
+                                <div class="education__year">2020</div>
+                                <div class="education__place">eiusmod tempor incididuneiusmod</div>
+                                <div class="education__speciality">National Institute</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="contacts">
+                        <div class="contacts__body">
+                            <h3 class="contacts__title">CONTACTS</h3>
+                            <ul class="contacts__items">
+                                <li class="contacts__item">
+                                    <img src="./phone.svg" alt="Phone Icon" width="20" height="20">
+                                    <p class="contacts__info">+(375 33) 904-20-44</p>
+                                </li>
+                                <li class="contacts__item">
+                                    <img src="./email.svg" alt="Email Icon" width="20" height="20">
+                                    <p class="contacts__info">alexander_rozhkov@icloud.com</p>
+                                </li>
+                                <li class="contacts__item">
+                                    <img src="./telegram.svg" alt="Telegram Icon" width="20" height="20">
+                                    <p class="contacts__info">@alexrozhkov</p>
+                                </li>
+                                <li class="contacts__item">
+                                    <img src="./linkedin.svg" alt="LinkedIn Icon" width="20" height="20">
+                                    <a href="https://www.linkedin.com/in/alexander-rozhkov-805471233/"
+                                        class="contacts__info">LinkedIn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="symmary">
+                        <div class="symmary__body">
+                            <div class="symmary__title">SYMMARY</div>
+                            <div class="symmary__items">
+                                <div class="symmary__info">Hi! I’m a junior frontend developer. I want to upgrade my
+                                    skills. Now I work in not very big company. My job responsibilites include ordinary
+                                    and not the most interesting task.I believe, that my ability to learn and to gain
+                                    new skills
+                                    will lead me through this path of becoming a proficient Frontend Developer.</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="skills">
+                        <div class="skills__body">
+                            <div class="skills__title">SKILLS</div>
+                            <div class="skills__items">
+                                <ul>
+                                    <li class="skills__item">HTML5, CSS3</li>
+                                    <li class="skills__item">JavaScript Basics</li>
+                                    <li class="skills__item">Git, GitHub</li>
+                                    <li class="skills__item">VS Code, IntelliJ IDEA</li>
+                                    <li class="skills__item">Adobe Illustrator, InDesign</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="code">
+                        <div class="code__body">
+                            <div class="code__title">CODE</div>
+                            <div class="code__items">
+                                <div class="code__info">
+                                    <pre class="pre"><code>function balue(n) {
+if(n &lt; 0) return null;
+if (n &lt;= 1) return 1;
+return n * factorial(n-1);
+}</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="english">
+                        <div class="english__body">
+                            <div class="english__title">ENGLISH</div>
+                            <div class="english__items">
+                                B - 0
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+
+        </footer>
     </div>
+    <!-- script -->
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
