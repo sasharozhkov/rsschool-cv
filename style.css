@@ -234,7 +234,6 @@ h6 {
 body._lock {
   overflow: hidden;
 }
-
 /* wrapper ------------------------------ */
 .wrapper {
   min-height: 100%;
@@ -242,7 +241,6 @@ body._lock {
   display: flex;
   flex-direction: column;
 }
-
 /* _container ------------------------------ */
 ._container {
   max-width: 642px;
@@ -250,7 +248,6 @@ body._lock {
   margin: 0px auto;
   box-sizing: content-box;
 }
-
 /* header ------------------------------ */
 .header {
   width: 100%;
@@ -306,7 +303,7 @@ body._lock {
 }
 .menu__link:hover {
   text-decoration: none;
-  color: var(--color-4);
+  color: var(--color-2);
 }
 .menu__sub-list {
   position: absolute;
@@ -345,11 +342,10 @@ body._lock {
   flex-wrap: wrap;
   position: relative;
 }
-
 .page__wrapper_bg {
   position: absolute;
   width: 234px;
-  height: 792px;
+  height: 100%;
   left: 408px;
   top: 0px;
   background: #042f57;
@@ -357,17 +353,13 @@ body._lock {
 .page__wrapper_bg-white {
   position: absolute;
   width: 340.45px;
-  height: 732.78px;
+  height: 95%;
   left: 248px;
   top: 20px;
   background: #ffffff;
   box-shadow: 0px 0px 20px rgba(1, 65, 125, 0.1);
 }
-
 .avatar {
-  /* border*/
-  /* outline: 1px dashed #0011ff;
-  outline-offset: -1px; */
   width: 177px;
   height: 198px;
 }
@@ -412,7 +404,6 @@ body._lock {
   text-transform: uppercase;
   color: #656565;
 }
-
 .education {
   width: 340.45px;
   margin-left: 27px;
@@ -447,6 +438,7 @@ body._lock {
   font-size: 8.89379px;
   line-height: 118%;
   color: #3c3c3c;
+  text-transform: uppercase;
 }
 .education__speciality {
   font-weight: 400;
@@ -474,18 +466,17 @@ body._lock {
   font-weight: 600;
   font-size: 8px;
   line-height: 12px;
-  /* or 150% */
   color: #3c3c3c;
 }
 .contacts__items {
   margin-top: 15px;
+  margin-left: 10px;
 }
 .contacts__item {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-
 .symmary {
   width: 266.82px;
   z-index: 2;
@@ -511,8 +502,8 @@ body._lock {
   margin-left: 10px;
   margin-top: 12px;
   color: #3c3c3c;
+  text-transform: uppercase;
 }
-
 .skills {
   width: 177px;
   z-index: 2;
@@ -530,7 +521,7 @@ body._lock {
 }
 .skills__items {
   margin-top: 16px;
-  margin-left: 13px;
+  margin-left: 20px;
 }
 .skills__info {
   font-weight: 400;
@@ -547,7 +538,6 @@ body._lock {
   list-style: circle;
   color: #3c3c3c;
 }
-
 .code {
   width: 266.82px;
   z-index: 2;
@@ -574,7 +564,6 @@ body._lock {
   margin-top: 12px;
   color: #3c3c3c;
 }
-
 .english {
   width: 177px;
   margin-top: 39px;
@@ -590,12 +579,59 @@ body._lock {
   color: #042f57;
 }
 .english__items {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 12px;
+  color: #3c3c3c;
+  margin-left: 10px;
+  margin-top: 16px;
 }
-.english__info {
+.projects {
+  width: 266.82px;
+  z-index: 2;
+  margin-left: 27px;
+  padding: 40px 37px 0px 40px;
+}
+.projects__body {
+}
+.projects__title {
+  font-weight: 700;
+  font-size: 11.1172px;
+  line-height: 150%;
+  border-bottom: 1px solid #cccccc;
+  letter-spacing: 0.05em;
+  color: #042f57;
+}
+.projects__items {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 12px;
+  color: #3c3c3c;
+  margin-left: 10px;
+  margin-top: 16px;
+}
+.projects__link {
   font-weight: 400;
   font-size: 8.89379px;
   line-height: 10px;
-  margin-left: 10px;
-  margin-top: 12px;
+  text-transform: uppercase;
   color: #3c3c3c;
+}
+.footer__content {
+  background-color: var(--color-0);
+  height: 50px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__github {
+}
+.footer__date {
+  font-weight: 600;
+  font-size: 8.89379px;
+  line-height: 13px;
+  color: #ffffff;
+}
+.footer__rss {
 }
